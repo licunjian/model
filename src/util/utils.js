@@ -1,5 +1,3 @@
-import api from '../axios/url';
-
 function toDouble(obj){
   if(obj<10){
     return '0'+obj;
@@ -35,6 +33,11 @@ export default{
       default:
         return ''
       }
+    },
+    passPhone(msg){
+      msg=msg+'';
+      var temp = msg.substr(0,3)+'****'+msg.substr(7);
+      return temp;
     }
   }
 }

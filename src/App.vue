@@ -11,6 +11,8 @@ export default {
 </script>
 
 <style>
+@import 'element-ui/lib/theme-chalk/index.css';
+@import './assets/css/reset.css';
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

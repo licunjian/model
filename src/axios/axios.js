@@ -36,9 +36,9 @@ function objToStr(obj, flag1, flag2, fitlerNull) {
 //POST传参序列化(添加请求拦截器)
 var requestInterceptSuc = function (config) {
   if(config.data){
-    config.data=Object.assign(config.data,{ticket:'c6a2babf-9e42-48d6-8984-93be71dc15c9',service:'http://www.baidu.com'});    
+    config.data=Object.assign(config.data,{ticket:'b27a6cfc-90bf-483a-9d75-a3a8eb4b2747',service:'http://www.baidu.com'});    
   } else if(config.params){
-    config.params=Object.assign(config.params,{ticket:'c6a2babf-9e42-48d6-8984-93be71dc15c9',service:'http://www.baidu.com'});  
+    config.params=Object.assign(config.params,{ticket:'b27a6cfc-90bf-483a-9d75-a3a8eb4b2747',service:'http://www.baidu.com'});  
   }
   // 在发送请求之前做某件事
   if(typeof config.data === 'object' && config.method  === 'post' && config.headers.post['Content-Type'] === dataType){

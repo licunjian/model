@@ -20,3 +20,19 @@ ol,ul {
 }
 .fl{float: left;}
 .fr{float: right;}
+/* 状态的样式 */
+.approving{
+color:#67c23a;
+}
+.available{
+color:#409eff;
+}
+.disable{
+color:#909399;
+}
+.editing{
+color:#e6a23c;
+}
+.reject{
+color:#f56c6c;
+}
